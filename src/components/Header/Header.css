@@ -1,0 +1,62 @@
+
+header {
+    width: 100%;
+    max-width: 1596px;
+    margin: 50px auto;
+    padding: 0 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.company-name {
+    font-size: 32px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-list {
+    width: 100%;
+    max-width: 371px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    padding: 0;
+    border-radius: 82px;
+}
+
+.nav-list li a {
+    display: block;
+    padding: 12px 18px;
+    border-radius: 82px;
+    color: #ffffff;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-list li a.active {
+    background-color: #262626;
+}
+
+.nav-list li a:hover {
+    background-color: #262626;
+}
